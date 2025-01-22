@@ -1,0 +1,13 @@
+import java.util.Scanner;
+  public class problem2{
+  public static void main(String args[]){
+  String test="*";
+  Scanner scan=new Scanner(System.in);
+  System.out.println("Give a number");
+  int num=scan.nextInt();
+  for(int c=1; c<= num; c++)
+  {
+     System.out.print(test);
+  }
+}
+  }

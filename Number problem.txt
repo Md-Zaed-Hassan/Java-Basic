@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class task9
+{
+  public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);
+    int length = 10;
+    int num[]= new int[length];
+    for(int c=0;c<num.length;c++)
+    {
+      System.out.println(" Enter number :");
+      num[c] = sc.nextInt();
+    }
+      System.out.println(" Enter value ");
+      int value = sc.nextInt();
+      for (int d=0;d<num.length;d++)
+      {
+        if(value==num[d])
+      {
+          System.out.println(" Yes ");
+          break;
+        }
+        else if(d==length-1)
+        {
+          System.out.println(" No ");
+        }
+      }
+  }
+}
+          
+  
